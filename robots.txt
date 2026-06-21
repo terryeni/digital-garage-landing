@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://digitalgarage.studio/sitemap.xml
+Sitemap: https://terryeni.github.io/digital-garage-landing/sitemap.xml
