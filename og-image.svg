@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A99BFF"/>
+      <stop offset="1" stop-color="#6358D4"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="84%" cy="-6%" r="55%">
+      <stop offset="0" stop-color="#7C6EFA" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#7C6EFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="6%" cy="12%" r="55%">
+      <stop offset="0" stop-color="#3DD68C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#3DD68C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#0F0F13"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <!-- brand row -->
+  <g transform="translate(80,76)">
+    <rect width="56" height="56" rx="16" fill="url(#mark)"/>
+    <text x="28" y="40" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-weight="900" font-size="28" fill="#0F0F13">DG</text>
+    <text x="76" y="38" font-family="Helvetica Neue, Arial, sans-serif" font-weight="800" font-size="30" letter-spacing="-0.5" fill="#EDEDF0">Digital Garage</text>
+  </g>
+
+  <!-- headline -->
+  <g font-family="Helvetica Neue, Arial, sans-serif" fill="#EDEDF0">
+    <text x="80" y="300" font-weight="800" font-size="80" letter-spacing="-2">The software your</text>
+    <text x="80" y="392" font-weight="800" font-size="80" letter-spacing="-2">business <tspan fill="#A99BFF">actually runs on</tspan>.</text>
+  </g>
+
+  <!-- subline -->
+  <text x="82" y="466" font-family="Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="31" fill="#8B8B9A">Mobile apps, web platforms, and B2B SaaS — end-to-end, from brief to shipped.</text>
+
+  <!-- footer chips -->
+  <g font-family="Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="26" fill="#3DD68C">
+    <text x="80" y="556">Mobile apps</text>
+    <text x="280" y="556" fill="#8B8B9A">&#183;</text>
+    <text x="310" y="556">Web platforms</text>
+    <text x="560" y="556" fill="#8B8B9A">&#183;</text>
+    <text x="590" y="556">B2B SaaS</text>
+  </g>
+</svg>
