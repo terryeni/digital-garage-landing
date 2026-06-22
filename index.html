@@ -25,9 +25,72 @@
 <meta name="twitter:title" content="Digital Garage — Operational software for B2B businesses" />
 <meta name="twitter:description" content="We build the software your business actually runs on. Mobile apps, web platforms, and B2B SaaS — end-to-end, from brief to shipped." />
 <meta name="twitter:image" content="https://terryeni.github.io/digital-garage-landing/og-image.png" />
-<!-- Vercel Web Analytics: cookieless, no consent banner needed. Auto-active once Web Analytics is enabled on the project in the Vercel dashboard. -->
-<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};</script>
-<script defer src="/_vercel/insights/script.js"></script>
+<!-- Vercel Web Analytics — active once this project is connected to Vercel.
+     On GitHub Pages this script returns 404; commented out until Vercel deploy.
+     Re-enable by uncommenting when digitalgarage.studio DNS + Vercel project is live. -->
+<!-- <script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};</script> -->
+<!-- <script defer src="/_vercel/insights/script.js"></script> -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Digital Garage",
+  "url": "https://digitalgarage.studio/",
+  "description": "Digital Garage is a software product studio that builds operational software for B2B businesses — mobile apps, web platforms, and SaaS tools — end-to-end, from brief to shipped.",
+  "address": {"@type": "PostalAddress", "addressCountry": "GB"},
+  "areaServed": {"@type": "Country", "name": "United Kingdom"},
+  "serviceType": ["Mobile App Development", "Web Platform Development", "B2B SaaS Development", "Internal Tooling", "MVP Development"],
+  "knowsAbout": ["React Native", "iOS development", "Android development", "SaaS", "B2B software", "operational software", "warehouse management systems", "logistics software"]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does Digital Garage build?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Digital Garage builds operational software for B2B businesses: mobile apps (iOS and Android), web platforms, SaaS products, internal tooling, and MVPs. We focus on software your business actually runs on — not marketing assets or e-commerce storefronts. Every product we take on for clients is the same type of work we do for our own ventures (Build Momentum, Loaditude)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of clients does Digital Garage work with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We work best with B2B businesses that have a clear operational problem and a process worth digitising. Good fits include field service companies that need a mobile app for drivers or engineers, logistics and warehousing operators, and early-stage B2B founders who need an MVP built properly. We are not a good fit for consumer apps, e-commerce projects, or marketing website builds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Digital Garage price its work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We take on a small number of client engagements at a time, so we can give each one the attention it deserves. Pricing is scoped per project based on complexity and timeline. To get a sense of fit and rough cost, start with a brief via the contact form — tell us the problem you are trying to solve, and we will come back within 24 hours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Digital Garage work across iOS and Android?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We build cross-platform mobile apps using React Native and Expo, which means a single codebase delivers a native-quality experience on both iOS and Android. This keeps cost and maintenance lower than two separate native builds without compromising on performance or user experience."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get started with Digital Garage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fill in the contact form on this page with your name, company, and a brief description of the problem you are trying to solve. We respond within 24 hours. If it sounds like a good fit, we will book a short discovery call to understand the scope before proposing anything."
+      }
+    }
+  ]
+}
+</script>
 <style>
   :root{
     --bg:#0F0F13; --panel:#16161C; --panel2:#1C1C24;
