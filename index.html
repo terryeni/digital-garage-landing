@@ -349,6 +349,74 @@
 
 <hr class="sec" />
 
+<section class="wrap" id="faq" style="padding:72px 0 56px">
+  <span class="eyebrow">Common questions</span>
+  <h2 style="font-size:clamp(1.5rem,3.5vw,2rem);font-weight:800;letter-spacing:-.03em;margin:12px 0 36px">Frequently asked questions</h2>
+  <div style="max-width:680px;display:flex;flex-direction:column;gap:2px">
+
+    <details style="background:var(--panel);border-radius:12px;overflow:hidden">
+      <summary style="padding:20px 22px;cursor:pointer;list-style:none;font-weight:600;font-size:.96rem;display:flex;justify-content:space-between;align-items:center;gap:16px;color:var(--text)">
+        What does Digital Garage build?
+        <span style="flex-shrink:0;font-size:1.3rem;font-weight:300;color:var(--purple);transition:transform .25s" class="dg-faq-icon">+</span>
+      </summary>
+      <div style="padding:0 22px 20px;color:var(--muted);font-size:.93rem;line-height:1.7">
+        We build operational software for B2B businesses: mobile apps (iOS and Android), web platforms, SaaS products, internal tooling, and MVPs. The focus is software your business actually runs on — field management, driver apps, logistics dashboards, client portals — not marketing assets or consumer storefronts. Every product we take on for clients is the same type of work we build for our own ventures (Build Momentum, Loaditude).
+      </div>
+    </details>
+
+    <details style="background:var(--panel);border-radius:12px;overflow:hidden">
+      <summary style="padding:20px 22px;cursor:pointer;list-style:none;font-weight:600;font-size:.96rem;display:flex;justify-content:space-between;align-items:center;gap:16px;color:var(--text)">
+        What types of clients are a good fit?
+        <span style="flex-shrink:0;font-size:1.3rem;font-weight:300;color:var(--purple);transition:transform .25s" class="dg-faq-icon">+</span>
+      </summary>
+      <div style="padding:0 22px 20px;color:var(--muted);font-size:.93rem;line-height:1.7">
+        We work best with B2B businesses that have a clear operational problem and a process worth digitising. Good fits: field service companies that need a mobile app for drivers or engineers, logistics and warehousing operators, and early-stage B2B founders who need an MVP built properly. We are not a good fit for consumer apps, e-commerce projects, or marketing website builds.
+      </div>
+    </details>
+
+    <details style="background:var(--panel);border-radius:12px;overflow:hidden">
+      <summary style="padding:20px 22px;cursor:pointer;list-style:none;font-weight:600;font-size:.96rem;display:flex;justify-content:space-between;align-items:center;gap:16px;color:var(--text)">
+        Do you build for iOS and Android?
+        <span style="flex-shrink:0;font-size:1.3rem;font-weight:300;color:var(--purple);transition:transform .25s" class="dg-faq-icon">+</span>
+      </summary>
+      <div style="padding:0 22px 20px;color:var(--muted);font-size:.93rem;line-height:1.7">
+        Yes. We use React Native and Expo to build cross-platform mobile apps from a single codebase. You get a native-quality experience on both iOS and Android without the cost of two separate native builds. For operational software — where the users are your own employees or partners — this is almost always the right trade-off.
+      </div>
+    </details>
+
+    <details style="background:var(--panel);border-radius:12px;overflow:hidden">
+      <summary style="padding:20px 22px;cursor:pointer;list-style:none;font-weight:600;font-size:.96rem;display:flex;justify-content:space-between;align-items:center;gap:16px;color:var(--text)">
+        How does pricing work?
+        <span style="flex-shrink:0;font-size:1.3rem;font-weight:300;color:var(--purple);transition:transform .25s" class="dg-faq-icon">+</span>
+      </summary>
+      <div style="padding:0 22px 20px;color:var(--muted);font-size:.93rem;line-height:1.7">
+        We take on a small number of engagements at a time so we can give each one the attention it deserves. Pricing is scoped per project based on complexity and timeline. To get a sense of fit and rough cost, send us a brief via the contact form below — tell us the problem you are trying to solve and we will come back within 24 hours.
+      </div>
+    </details>
+
+    <details style="background:var(--panel);border-radius:12px;overflow:hidden">
+      <summary style="padding:20px 22px;cursor:pointer;list-style:none;font-weight:600;font-size:.96rem;display:flex;justify-content:space-between;align-items:center;gap:16px;color:var(--text)">
+        How do I get started?
+        <span style="flex-shrink:0;font-size:1.3rem;font-weight:300;color:var(--purple);transition:transform .25s" class="dg-faq-icon">+</span>
+      </summary>
+      <div style="padding:0 22px 20px;color:var(--muted);font-size:.93rem;line-height:1.7">
+        Fill in the contact form below with your name, company, and a brief description of the problem you are trying to solve. We respond within 24 hours. If it sounds like a good fit, we will book a short discovery call to understand the scope before proposing anything.
+      </div>
+    </details>
+
+  </div>
+  <script>
+  document.querySelectorAll('#faq details').forEach(function(d){
+    d.addEventListener('toggle',function(){
+      var icon=d.querySelector('.dg-faq-icon');
+      if(icon) icon.style.transform=d.open?'rotate(45deg)':'rotate(0deg)';
+    });
+  });
+  </script>
+</section>
+
+<hr class="sec" />
+
 <section class="wrap" id="contact">
   <div class="cta-block">
     <span class="eyebrow">Work with us</span>
